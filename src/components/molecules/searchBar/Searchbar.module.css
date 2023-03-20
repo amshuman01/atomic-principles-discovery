@@ -1,0 +1,16 @@
+.search {
+  width: 230px;
+  background: transparent;
+  border: none;
+}
+
+.img {
+  height: 17px;
+  width: 17px;
+}
+.searchBar {
+  /* border-top: none;
+  border-left: none;
+  border-right: none; */
+  border-bottom: 1px solid white;
+}

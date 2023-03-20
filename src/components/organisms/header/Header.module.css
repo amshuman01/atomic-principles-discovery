@@ -1,0 +1,46 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  flex-grow: 1;
+  height: 70px;
+  align-items: center;
+}
+
+.titleContainer {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  background-color: black;
+}
+.searchLogin {
+  display: flex;
+}
+.signIn {
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+}
+
+.marginRight {
+  margin-right: 15px;
+}
+
+.buyPlan {
+  background-color: #2175d9;
+  color: white;
+  border: none;
+}
+
+.headerStart {
+  display: flex;
+  align-items: center;
+  flex-basis: 250px;
+}
+.marginLeft {
+  margin-left: 4%;
+}
+.iconSmall {
+  height: 40px;
+}

@@ -1,0 +1,15 @@
+@import "../../_settings/variables.css";
+.option {
+  flex-grow: 1;
+  margin: 2%;
+  vertical-align: baseline;
+  color: var(--grey-6);
+}
+.option:hover {
+  color: white;
+}
+.navigation {
+  display: flex;
+  max-width: 600px;
+  /* flex-grow: 1; */
+}

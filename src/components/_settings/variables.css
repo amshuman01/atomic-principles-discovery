@@ -1,0 +1,28 @@
+/* :root aids in making global css variables */
+:root {
+  /* fonts */
+  --font-roboto: "Roboto", sans-serif;
+  --font-sans: sans-serif;
+
+  /* line-height */
+  --lineheight-1: 1em;
+
+  /* colors  */
+  --white: #ffffff;
+  --black: #1111;
+  --black-2: #1a1c21;
+  --black-3: #262931;
+  --black-4: #121317;
+  --grey-1: #dadada;
+  --grey-2: #ededed;
+  --grey-3: #474747;
+  --grey-4: #919191;
+  --grey-5: #838991;
+  --grey-6: #838991;
+  --grey-7: #9ba1a9;
+  --body-bg: var(--grey-3);
+  --blue-1: #2175d9;
+  --blue-2: #2196f3;
+  --blue-3: #282e3d;
+  --green: #2a7e2e;
+}
