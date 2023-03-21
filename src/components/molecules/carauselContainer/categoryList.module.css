@@ -7,10 +7,11 @@
   overflow-y: hidden;
   padding: 30px;
   justify-content: center;
+  align-items: center;
 }
 
 .cat {
-  height: 200px;
+  height: 150px;
   width: 12%;
   position: relative;
   border-radius: 15px;
@@ -19,7 +20,6 @@
 }
 
 .catImg {
-  height: 200px;
   width: 100%;
   z-index: 1;
   border-radius: 15px;
@@ -33,4 +33,8 @@
   color: var(--white);
   font-size: 24px;
   font-weight: bolder;
+}
+
+.right {
+  height: 10%;
 }

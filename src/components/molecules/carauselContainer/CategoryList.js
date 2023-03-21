@@ -6,6 +6,7 @@ import free from "../../../images/free-watch.jpeg";
 import Scn from "../../../images/science.jpeg";
 import Class from "./categoryList.module.css";
 import MediumText from "../../atoms/textContent/MediumText";
+import Right from "../../../images/right-arrow.png";
 
 const catList = [
   {
@@ -41,6 +42,7 @@ const CategoryList = () => {
           </div>
         );
       })}
+      <img src={Right} className={Class.right}></img>
     </div>
   );
 };

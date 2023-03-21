@@ -1,0 +1,26 @@
+@import "../../_settings/variables.css";
+.title {
+  color: white;
+  /* margin: 7px; */
+}
+
+.showTop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.showContainer {
+  display: flex;
+  gap: 3%;
+  justify-content: space-between;
+}
+
+.showList {
+  margin: 2%;
+  width: 1400px;
+}
+
+.color {
+  color: var(--grey-6);
+}
