@@ -1,0 +1,12 @@
+.footerContainer {
+  width: 1400px;
+}
+.footInfo {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.info {
+  width: 70%;
+}

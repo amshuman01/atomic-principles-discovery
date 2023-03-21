@@ -1,0 +1,7 @@
+.infoContainer {
+  display: flex;
+}
+
+.infoContainer div {
+  width: 50px;
+}
