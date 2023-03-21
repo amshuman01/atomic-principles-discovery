@@ -3,14 +3,14 @@ import React from "react";
 import Footer from "../organisms/Footer";
 import Header from "../organisms/header/Header.js";
 import Content from "../organisms/body/Content";
+import Class from "./Template.module.css";
 
 const HomeTemplate = () => {
   return (
-    <React.Fragment>
-      <Header></Header>
-      <Content></Content>
-      {/* <Footer></Footer>  */}
-    </React.Fragment>
+    <div>
+      <Header className={Class.header}></Header>
+      <Content className={Class.content}></Content>
+    </div>
   );
 };
 

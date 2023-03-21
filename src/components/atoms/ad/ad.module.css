@@ -1,5 +1,6 @@
 .ad {
-  height: 10vh;
+  height: 15vh;
   width: 70%;
-  background-color: brown;
+  background-color: rgb(88, 76, 44);
+  text-align: center;
 }

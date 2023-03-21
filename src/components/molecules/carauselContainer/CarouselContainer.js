@@ -1,11 +1,12 @@
 import React from "react";
 import Ad from "../../atoms/ad/Ad";
+import Class from "./CarouselContainer.module.css";
 
 const CarouselContainer = () => {
   return (
-    <div>
-      <p>hh</p>
+    <div className={Class.container}>
       <Ad></Ad>
+      <div className={Class.mainCarousel}></div>
     </div>
   );
 };

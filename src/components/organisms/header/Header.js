@@ -6,9 +6,9 @@ import NavigationOptions from "../../molecules/navigationOptions/NavigationOptio
 import SearchBar from "../../molecules/searchBar/SearchBar";
 import Class from "./Header.module.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <div className={Class.titleContainer}>
+    <div className={`${Class.titleContainer} ${props.className}`}>
       <div className={Class.title}>
         <div className={Class.headerStart}>
           <img src={HamburgerIcon} alt="menu" className={Class.iconSmall}></img>
