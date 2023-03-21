@@ -1,0 +1,36 @@
+.catContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-y: hidden;
+  padding: 30px;
+  justify-content: center;
+}
+
+.cat {
+  height: 200px;
+  width: 12%;
+  position: relative;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.catImg {
+  height: 200px;
+  width: 100%;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.catTitle {
+  position: absolute;
+  bottom: 0;
+
+  z-index: 2;
+  color: var(--white);
+  font-size: 24px;
+  font-weight: bolder;
+}

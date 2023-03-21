@@ -1,0 +1,11 @@
+@import "../../_settings/variables.css";
+.tag {
+  background: var(--blue-3);
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 5px 7px;
+  border: none;
+  color: var(--grey-7);
+  width: fit-content;
+  display: inline;
+}

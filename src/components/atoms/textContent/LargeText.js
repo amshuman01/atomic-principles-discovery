@@ -1,7 +1,7 @@
 import React from "react";
 
 const LargeText = (props) => {
-  return <h2>{props.children}</h2>;
+  return <h2 className={props.className}>{props.children}</h2>;
 };
 
 export default LargeText;

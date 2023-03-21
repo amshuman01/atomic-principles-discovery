@@ -1,3 +1,4 @@
+@import "../../_settings/variables.css";
 .container {
   display: flex;
   flex-direction: column;
@@ -9,4 +10,35 @@
 
 .mainCarousel {
   max-width: 1400px;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallImage {
+  height: 5%;
+}
+
+.large {
+  color: white;
+}
+.medium {
+  color: var(--grey-6);
+}
+
+.mainCarousel * {
+  margin-right: 2.5%;
+}
+
+.marginNone {
+  margin: none;
+}
+
+.moon {
+  margin: 2.5%;
+  max-width: 800px;
 }
