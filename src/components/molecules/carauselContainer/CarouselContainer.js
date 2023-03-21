@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Ad from "../../atoms/ad/Ad";
 import Class from "./CarouselContainer.module.css";
 import LeftArrow from "../../../images/left-arrow.png";
@@ -9,8 +9,11 @@ import Moon from "../../../images/moon.jpeg";
 import Tags from "../../atoms/tags/Tags";
 import CategoryList from "./CategoryList";
 import Playsection from "./Playsection";
+import WatchSection from "./WatchSection";
 
 const CarouselContainer = () => {
+  const [mobileFlag, setMobile] = useState(false);
+
   return (
     <div className={Class.container}>
       <Ad></Ad>
@@ -26,10 +29,12 @@ const CarouselContainer = () => {
             The thrilling tale of two events -Neil Armstrong's first step &
             China's landing.
           </MediumText>
-          <div>
+
+          <div className={Class.tagSection}>
             <Tags>Space</Tags>
             <Tags>Science</Tags>
           </div>
+
           <div className={Class.play}>
             <Playsection></Playsection>
           </div>
@@ -43,6 +48,7 @@ const CarouselContainer = () => {
           alt="left-arrow"
           className={`${Class.smallImage} ${Class.marginNone}`}
         ></img>
+        <WatchSection className={Class.watch}></WatchSection>
       </div>
       <CategoryList></CategoryList>
     </div>

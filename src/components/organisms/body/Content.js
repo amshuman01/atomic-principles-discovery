@@ -5,8 +5,8 @@ import Class from "./Content.module.css";
 const showList = ["Newly Added Shows", "Shows You Love", "Stream For Free Now"];
 
 const Content = (props) => {
-  const dispShows = showList.map((shows) => (
-    <ShowList title={shows}></ShowList>
+  const dispShows = showList.map((shows, index) => (
+    <ShowList key={index} title={shows}></ShowList>
   ));
   return (
     <div className={`${Class.container} ${props.className}`}>
