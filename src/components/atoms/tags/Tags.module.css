@@ -8,4 +8,5 @@
   color: var(--grey-7);
   width: fit-content;
   display: inline;
+  margin: 40px 0;
 }

@@ -18,7 +18,10 @@
 
 .showList {
   margin-top: 2%;
-  width: 1400px;
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
 }
 
 .color {

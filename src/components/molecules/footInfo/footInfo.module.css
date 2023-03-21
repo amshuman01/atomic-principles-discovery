@@ -1,7 +1,17 @@
 .infoContainer {
   display: flex;
+  align-items: center;
+  height: 35px;
 }
 
-.infoContainer div {
-  width: 50px;
+.logoContainer {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.logoContainer img {
+  width: 80%;
+  height: 80%;
 }

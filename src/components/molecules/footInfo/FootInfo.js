@@ -5,7 +5,7 @@ import Class from "./footInfo.module.css";
 const FootInfo = (props) => {
   return (
     <div className={Class.infoContainer}>
-      <div>
+      <div className={Class.logoContainer}>
         <img src={props.src}></img>
       </div>
       <SmallText>{props.text}</SmallText>

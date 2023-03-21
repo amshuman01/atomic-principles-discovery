@@ -15,7 +15,7 @@ const FootLinks = () => {
           <MediumText>Terms of Use</MediumText>
           <MediumText>FAQ's</MediumText>
         </div>
-        <MediumText>
+        <MediumText className={Class.fapP2}>
           Copyright © 2022 Discovery, Inc. or its subsidiaries and affiliates.
           All rights reserved.
         </MediumText>

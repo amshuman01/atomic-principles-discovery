@@ -1,5 +1,5 @@
 .search {
-  width: 230px;
+  width: fit-content;
   background: transparent;
   border: none;
 }
@@ -13,4 +13,10 @@
   border-left: none;
   border-right: none; */
   border-bottom: 1px solid white;
+}
+
+@media (max-width: 970px) {
+  .search {
+    display: none;
+  }
 }

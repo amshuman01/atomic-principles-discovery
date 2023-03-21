@@ -1,9 +1,14 @@
 .social {
   display: flex;
-  gap: 20%;
   align-items: center;
+  width: 30%;
+  gap: 2%;
 }
 
 .imgGroup {
   display: flex;
+}
+
+.imgGroup img {
+  width: 40%;
 }

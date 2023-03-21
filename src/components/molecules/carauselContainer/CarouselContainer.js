@@ -8,6 +8,7 @@ import MediumText from "../../atoms/textContent/MediumText";
 import Moon from "../../../images/moon.jpeg";
 import Tags from "../../atoms/tags/Tags";
 import CategoryList from "./CategoryList";
+import Playsection from "./Playsection";
 
 const CarouselContainer = () => {
   return (
@@ -25,10 +26,18 @@ const CarouselContainer = () => {
             The thrilling tale of two events -Neil Armstrong's first step &
             China's landing.
           </MediumText>
-          <Tags>Space</Tags>
-          <Tags>Science</Tags>
+          <div>
+            <Tags>Space</Tags>
+            <Tags>Science</Tags>
+          </div>
+          <div className={Class.play}>
+            <Playsection></Playsection>
+          </div>
         </div>
-        <img src={Moon} className={Class.moon}></img>
+        <div className={Class.moonContainer}>
+          <img src={Moon} className={Class.moon}></img>
+        </div>
+
         <img
           src={RightArrow}
           alt="left-arrow"
