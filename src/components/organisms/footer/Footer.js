@@ -5,6 +5,7 @@ import Mail from "../../../images/mail-icon.png";
 import Disc from "../../../images/discovery-small.png";
 import FootInfo from "../../molecules/footInfo/FootInfo";
 import SocialLinks from "../../molecules/footInfo/SocialLinks";
+import FootLinks from "../../molecules/footLinks/FootLinks";
 
 const info = [
   { src: Call, text: "hello@discovery.com" },
@@ -29,7 +30,9 @@ const Footer = (props) => {
           <div className={Class.info}>{renderInfo}</div>
           <SocialLinks></SocialLinks>
         </div>
-        <div className={Class.footLinks}>ad and support policy faq</div>
+        <div className={Class.footLinks}>
+          <FootLinks></FootLinks>
+        </div>
       </div>
     </div>
   );

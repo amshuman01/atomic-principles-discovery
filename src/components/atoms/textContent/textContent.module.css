@@ -1,3 +1,5 @@
+@import "../../_settings/variables.css";
 .mediumText {
   font-size: 1rem;
+  color: #838991;
 }

@@ -1,0 +1,20 @@
+.footLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq {
+  display: flex;
+  border-top: 1px solid white;
+  justify-content: space-between;
+}
+.faqP1 {
+  display: flex;
+  gap: 3%;
+  width: 30%;
+}
+
+.flPart1 {
+  display: flex;
+  gap: 5%;
+}
