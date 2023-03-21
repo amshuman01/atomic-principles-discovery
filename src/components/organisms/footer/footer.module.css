@@ -12,3 +12,14 @@
 .info {
   width: 70%;
 }
+
+@media (max-width: 430px) {
+  .footInfo {
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+  }
+}

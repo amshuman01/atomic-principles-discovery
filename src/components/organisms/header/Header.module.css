@@ -46,5 +46,11 @@
   height: 40px;
 }
 
-@media screen and (max-width: 840px) {
+@media (max-width: 430px) {
+  .signIn {
+    display: none;
+  }
+  .buyPlan {
+    display: none;
+  }
 }

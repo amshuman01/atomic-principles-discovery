@@ -24,3 +24,18 @@
 .faqP2 {
   text-align: left;
 }
+
+@media (max-width: 430px) {
+  .faq {
+    flex-direction: column;
+    border-top: 0;
+  }
+  .faqP1 {
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+  }
+  .flPart1 {
+    flex-direction: column;
+  }
+}

@@ -19,7 +19,7 @@ const SocialLinks = () => {
       </div>
       <div>
         <MediumText>Discovery+ App</MediumText>
-        <div className={Class.imgGroup}>
+        <div className={`${Class.imgGroup} ${Class.largeImg}`}>
           <CurverPng src={Apple} style={{ marginRight: "10px" }}></CurverPng>
           <CurverPng src={Store} />
         </div>
